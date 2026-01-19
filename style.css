@@ -1,0 +1,111 @@
+*{
+    color:  rgba(255, 255, 255, 0.789);
+    font-family: work sans;
+}
+.navbar{
+    height: 92px;
+   background-color: rgb(16, 16, 43);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+h2 span{
+    background: linear-gradient(45deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+   background-clip : text;
+    -webkit-text-fill-color: transparent;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.btn{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border: none;
+    border-radius: 10000px;
+     background: linear-gradient(47deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+    padding: 12px 20px;
+
+}
+#banner{
+     background-image: url(./assets/hero-bg.png);
+    text-align: center;
+    padding: 80px 0px;
+}
+.banner-image{
+    position: relative;
+}
+.img1{
+    left: 100px;
+}
+.img2{
+    position: absolute;
+   left: 727px;
+   bottom: 100px;
+}
+#banner h1{
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 0px;
+}
+.banner-button{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top:30px ;
+}
+.banner-second-button{
+    background-color: rgb(9, 9, 63);
+    border: 1px solid rgb(59, 196, 59);
+    border-radius: 10000px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 12px 18px;
+    color: rgb(59, 196, 59);
+    font-weight: 600;
+    font-size: 18px;
+}
+#about{
+    background-color: rgb(16, 16, 43);
+    padding-top:50px;
+
+}
+.about-text{
+    width: 800px;
+    height: 222px;
+    text-align: center;
+    margin: 0 auto;
+}
+.about-text p{
+    line-height: 26px;
+}
+.join{
+    padding-top: 30px;
+}
+.line{
+    border: 1px solid  rgba(255, 255, 255, 0.104) ;
+    margin: 50px auto;
+    width: 1200px;
+    height: 0px;
+}
+.card-part h1{
+  color: rgb(59, 196, 59);
+}
+.about-card{ 
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
