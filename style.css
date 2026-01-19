@@ -114,7 +114,7 @@ ul{
      padding: 100px 0px;
   
 }
-#choose h2{
+ h2{
     font-weight: 600;
     text-align: center;
 
@@ -154,4 +154,34 @@ ul{
     "headphone  global global "
     "zif        zif     book";
 }
+.future{
+    background-color: rgb(16, 16, 43);
+    padding: 120px 0px;
+    margin: 0 auto;
+}
+.clock{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.clock p{
+      color: rgb(59, 196, 59);
+}
+.future-box{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+   
+    gap: 30px;
+}
+iframe{
+    width: 380px;
+}
 
+.future-card{
+    border-radius: 30px;
+    background-color:rgba(35, 14, 61, 1) ;
+}
+.card-text{
+    padding: 30px;
+}
