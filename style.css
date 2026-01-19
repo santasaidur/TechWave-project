@@ -78,7 +78,7 @@ ul{
 }
 #about{
     background-color: rgb(16, 16, 43);
-    padding-top:50px;
+    padding:50px;
 
 }
 .about-text{
@@ -109,3 +109,49 @@ ul{
     justify-content: space-around;
     text-align: center;
 }
+#choose{
+      background-color: rgba(35, 14, 61, 1);
+     padding: 100px 0px;
+  
+}
+#choose h2{
+    font-weight: 600;
+    text-align: center;
+
+}
+.tech-card{
+    border-radius: 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+    width: 100%;
+    height: 100%;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.headphone{
+    grid-area: headphone;
+}
+.mobile{
+    grid-area: mobile;
+}
+.global{
+    grid-area: global;
+}
+.zif{
+    grid-area: zif;
+}
+.book{
+    grid-area: book;
+}
+#choose .techwave-box{
+       margin: 0 auto;
+       padding: 0px 120px 120px 120px;
+    width: 1200px;
+    height: 880px;
+    display: grid;
+    gap: 70px;
+    grid-template-areas: 
+    "headphone  mobile mobile  "
+    "headphone  global global "
+    "zif        zif     book";
+}
+
