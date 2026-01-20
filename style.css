@@ -39,19 +39,26 @@ ul{
 }
 #banner{
      background-image: url(./assets/hero-bg.png);
+     background-position: center;
     text-align: center;
     padding: 80px 0px;
 }
 .banner-image{
+    margin: 0 auto;
     position: relative;
+    width: 350px;
+    height: 350px;
 }
 .img1{
-    left: 100px;
+    width: 100%;
+    height: 100%;
 }
 .img2{
     position: absolute;
-   left: 727px;
-   bottom: 100px;
+    top: 50%;
+  left: 50%;
+  width: 150px;
+    transform: translate(-50%, -50%);
 }
 #banner h1{
     font-weight: 700;
@@ -154,10 +161,28 @@ ul{
     "headphone  global global "
     "zif        zif     book";
 }
-.future{
+#future{
     background-color: rgb(16, 16, 43);
     padding: 120px 0px;
-    margin: 0 auto;
+}
+.card-img{
+     position: relative;
+     height: 214px;
+     width: 380px;
+}
+.bg-img{
+    width: 100%;
+    height: 100%;
+}
+.play-img{
+     position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60px;  
+  transform: translate(-50%, -50%);
+  background-image: url(./assets/Ellipse\ 3.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .clock{
     display: flex;
@@ -171,17 +196,56 @@ ul{
     width: 1200px;
     margin: 0 auto;
     display: flex;
-   
+   padding-left: 30px;
+   padding-bottom: 100px;
     gap: 30px;
 }
-iframe{
-    width: 380px;
-}
-
 .future-card{
     border-radius: 30px;
     background-color:rgba(35, 14, 61, 1) ;
 }
 .card-text{
-    padding: 30px;
+   padding: 20px;
+   
+}
+.host{
+    width: 1120px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+    background-color:rgba(35, 14, 61, 1)  ;
+    padding: 40px;
+    border-radius: 30px;
+}
+.host-icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.host-icon>*{
+    width: 20px; 
+    height: 20px;
+}
+#footer{
+    background-image: url(./assets/footer-bg.png);
+    background-position: center;
+    text-align: center;
+   padding-top: 120px;
+   padding-bottom: 100px;
+  
+}
+.icon-text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#footer h2{
+    margin: 0px;
 }
