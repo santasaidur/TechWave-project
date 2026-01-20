@@ -35,7 +35,6 @@ ul{
     border-radius: 10000px;
      background: linear-gradient(47deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
     padding: 12px 20px;
-
 }
 #banner{
      background-image: url(./assets/hero-bg.png);
@@ -60,6 +59,25 @@ ul{
   width: 150px;
     transform: translate(-50%, -50%);
 }
+.new-button{
+    position: relative;
+    display: inline-block;
+}
+.new{
+    position: absolute;
+    background-color: green;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-weight: 500;
+    top: 10%;
+    right: 10px;
+    animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+    0% { transform: translateY(-50%) scale(1); }
+  50% { transform: translateY(-50%) scale(1.1); }
+  100% { transform: translateY(-50%) scale(1); }
+}
 #banner h1{
     font-weight: 700;
     font-size: 55px;
@@ -82,6 +100,7 @@ ul{
     color: rgb(59, 196, 59);
     font-weight: 600;
     font-size: 18px;
+     
 }
 #about{
     background-color: rgb(16, 16, 43);
