@@ -291,9 +291,16 @@ ul{
     margin: 0px;
 }
 @media screen and (max-width:576px) {
+    header{
+        width: 100%;
+    }
     .navbar{
         height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+    
     #about , .about-text, header
     {
         width: 100%;
